@@ -58,7 +58,7 @@ tasks_{id}:
         required: true
         description: The id of a task
         schema:
-          type: string
+          type: integer
     responses:
       '200':
         description: Task found

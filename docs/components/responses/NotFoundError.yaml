@@ -1,5 +1,5 @@
-description: Not Found
-content:
-  application/json:
-    schema:
-      $ref: ../schemas/ValidationError.yaml
+type: object
+properties:
+  error:
+    type: string
+    example: Task not found
